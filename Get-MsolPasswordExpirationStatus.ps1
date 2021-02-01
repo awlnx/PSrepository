@@ -10,9 +10,8 @@
 
 .SYNTAX
 Get-MsolPasswordExpirationStatus.ps1
-Get-MsolPasswordExpirationStatus.ps1 -ObjectId <Guid> [-ReturnDeletedUsers] [-TenantId <Guid>] [<CommonParameters>]
-Get-MsolPasswordExpirationStatus.ps1 -UserPrincipalName <string> [-ReturnDeletedUsers] [-TenantId <Guid>] [<CommonParameters>]
-#>
+Get-MsolPasswordExpirationStatus.ps1 -ObjectId <Guid>
+Get-MsolPasswordExpirationStatus.ps1 -UserPrincipalName <string> 
   
 Param(
     [Parameter(Mandatory=$False)]
