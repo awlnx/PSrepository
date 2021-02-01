@@ -8,10 +8,6 @@
     The Get-MsolPasswordExpirationStatus script can be used to retrieve an individual user's password status, or list of user's password status. An individual user will be
     retrieved if the ObjectId or UserPrincipalName parameter is used.
 
-.SYNTAX
-Get-MsolPasswordExpirationStatus.ps1
-Get-MsolPasswordExpirationStatus.ps1 -ObjectId <Guid>
-Get-MsolPasswordExpirationStatus.ps1 -UserPrincipalName <string> 
 #>
 Param(
     [Parameter(Mandatory=$False)]
