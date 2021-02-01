@@ -1,4 +1,4 @@
-﻿
+
 <#
 .SYNOPSIS
     Retrieves a user's password expiration status
@@ -12,7 +12,7 @@
 Get-MsolPasswordExpirationStatus.ps1
 Get-MsolPasswordExpirationStatus.ps1 -ObjectId <Guid>
 Get-MsolPasswordExpirationStatus.ps1 -UserPrincipalName <string> 
-  
+#>
 Param(
     [Parameter(Mandatory=$False)]
         [string]$UserPrincipalName,
