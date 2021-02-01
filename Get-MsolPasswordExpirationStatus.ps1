@@ -9,8 +9,7 @@
     retrieved if the ObjectId or UserPrincipalName parameter is used.
 
 .SYNTAX
-Get-MsolPasswordExpirationStatus.ps1 [-City <string>] [-Country <string>] [-Department <string>] [-DomainName <string>] [-EnabledFilter <string>] [-HasErrorsOnly] [-LicenseReconciliationNeededOnly] [-LiveId <string>] [-MaxResults <int>] [-ReturnDeletedUsers] [-SearchString <string>] [-State <string>] [-Synchronized] [-TenantId <Guid>] [-Title <string>] 
-    [-UnlicensedUsersOnly] [-UsageLocation <string>] [<CommonParameters>]
+Get-MsolPasswordExpirationStatus.ps1
 Get-MsolPasswordExpirationStatus.ps1 -ObjectId <Guid> [-ReturnDeletedUsers] [-TenantId <Guid>] [<CommonParameters>]
 Get-MsolPasswordExpirationStatus.ps1 -UserPrincipalName <string> [-ReturnDeletedUsers] [-TenantId <Guid>] [<CommonParameters>]
 #>
